@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: whitesmoke;
+    
 }
 
 body{
@@ -44,3 +44,43 @@ button{
     font-weight: bolder;
     font-size: 1rem;
 }
+
+
+
+.container {
+    
+    background-color: #555;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card1 {
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    width:350px;
+    text-align: center;
+}
+.card1 button {
+    border-radius: 10px;
+}
+
+.card1 h3{
+    color: brown;
+}
+
+.card2 {
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    width:350px;
+}
+.card3 {
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    width:350px;
+}
+
+
