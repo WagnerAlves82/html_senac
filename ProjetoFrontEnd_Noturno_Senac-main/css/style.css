@@ -3,14 +3,28 @@
     padding: 0;
     
 }
+.exemplo h1 {
+    background-color: aqua;
+    padding: 15px;
+    margin-bottom: 15px;
+}
 
 body{
     padding: 0 15px 0 15px;
     margin-left: 100px;
     margin-right: 100px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 30px;
+    
     border-radius: 15px;
+}
+
+.main img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.main figcaption{
+    color:blueviolet;
 }
 
 input{
@@ -83,4 +97,25 @@ button{
     width:350px;
 }
 
+#contato {
+    color:brown;
+}
+
+.container2 {
+    background-color: #f7f3f3;
+    display: inline-flex;
+    justify-content: center;
+   
+    
+}
+
+.container2 img {
+    
+    display: inline-flex;
+    Width:auto;
+    
+}
+.col-sm-6{
+    flex: 1 1 50%;
+}
 
