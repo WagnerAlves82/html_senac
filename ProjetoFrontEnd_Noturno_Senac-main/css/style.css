@@ -1,13 +1,13 @@
 body{
     padding: 0 15px;
     margin: 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 15px;
+    
+    
 }
 
 .main{
     width:auto;
-    background-color: #007BFF;
+    text-align: right;
 }
 
 .main img {
@@ -16,11 +16,12 @@ body{
     max-height:450px;
     object-fit: cover;
     object-position: top center;
-    border-radius: 10px;
+    border-radius: 0 0 10px 0;
+    
 }
 
 .main figcaption{
-    color:blueviolet;
+    color:#505050;
 }
 
 input{
@@ -56,20 +57,23 @@ button{
 }
 
 .container {
-    background-color: #555;
+    background-color: #fff;
     display: flex;
     flex-wrap: wrap; 
+    margin-top: 15px;
+    margin-bottom: 15px;
    
 }
 
 
 .card1, .card2, .card3 {
-    background: #fff;
     padding: 20px;
     margin: 10px;
     width: calc(33.33% - 20px); 
     text-align: center;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    
+    border-right: 3px solid #505050;
 }
 
 
@@ -86,21 +90,28 @@ button{
 
 
 .container3 {
-display: flex;
-background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
-.container3 col-lg-1 {
+.menu {
     display: flex;
-    }
+    gap: 15px; /
+}
 
-.row{
-    display: flex;
-   
+.menu a {
+    text-decoration: none;
+    color: black;
 }
-#contato {
-    color:brown;
+
+.menu a:hover {
+    text-decoration: none;
 }
+
 
 
 .container2 {
@@ -135,7 +146,7 @@ background-color: blanchedalmond;
     
     align-items: flex-end;
     padding: 10px;
-    background-color: #007BFF;
+    
 }
 #menu {
     text-align: left;
@@ -145,7 +156,7 @@ background-color: blanchedalmond;
     color: black;
     padding: 10px;
     transition: color 0.3s;
-    background-color: aquamarine;
+    
     border-radius: 8px;
 }
 
@@ -154,3 +165,20 @@ background-color: blanchedalmond;
     background-color: #555;
 }
 
+.texto {
+    color:yellow;
+    padding: 30px;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-dark-wood-grain-background-material-image_268100.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo {
+    width: 80px;
+    height: 50px;
+}
+
+.col-lg-1 {
+    display: inline-flex;
+    align-items: center;
+}
