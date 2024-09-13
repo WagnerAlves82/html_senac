@@ -208,3 +208,47 @@ button {
     padding: 25px; 
       
 }
+
+
+.container_tabela {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; 
+    padding: 20px;
+}
+
+.tabela1, .tabela2 {
+flex: 1;
+background-color: #fff;
+margin: 0;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+padding-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 10px;
+    
+    
+  
+
+}
+
+th, td {
+    border-bottom: solid 1px #909090;
+    padding: 10px;
+    text-align: left;
+    
+    
+    }
+
+
+
+td:last-child {
+    background-color: #ddd;
+}
+
+th:last-child {
+    background-color: #ddd;
+}
