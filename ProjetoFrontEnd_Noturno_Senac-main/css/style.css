@@ -98,18 +98,19 @@ button {
     padding: 20px;
     width: calc(30% - 20px);
     text-align: center;
-   
-    
+       
 }
 
 .container2 {
     background-color: #f7f3f3;
+    display: flex;
+   
 }
 
 .row {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+       
 }
 
 .container4 {
@@ -210,6 +211,7 @@ button {
 }
 
 
+
 .container_tabela {
     display: flex;
     justify-content: space-around;
@@ -252,3 +254,4 @@ td:last-child {
 th:last-child {
     background-color: #ddd;
 }
+
