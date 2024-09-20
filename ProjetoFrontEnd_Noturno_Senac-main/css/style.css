@@ -82,28 +82,24 @@ button {
     font-weight: bolder;
     font-size: 1rem;
     cursor: pointer;
-    margin-top: 10px;
+    
 }
 
 
-.container, .container2, .container4 {
+.container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 30px;
     padding: 10px;
+    justify-content: center;
 }
 
-/* Cards */
-.card1, .card2, .card3 {
-    padding: 20px;
-    width: calc(30% - 20px);
-    text-align: center;
-       
-}
+
 
 .container2 {
-    background-color: #f7f3f3;
+  padding: 30px;
     display: flex;
+    background-image: url(https://img.freepik.com/vetores-premium/fundo-medico-abstrato-com-icones-e-simbolos-lisos-modelo-de-design-com-conceito-e-ideia-para-tecnologia-de-saude-medicina-de-inovacao-saude-ciencia-e-pesquisa_120542-512.jpg);
    
 }
 
@@ -113,62 +109,8 @@ button {
        
 }
 
-.container4 {
-    background-image: url(https://i.pinimg.com/originals/c8/73/59/c87359464ded9d2a589a2bbe14660a8e.jpg);
-    background-size: cover;
-    background-position: center;
-    color: #ccc;
-    gap: 20px;
-}
 
-.container4 img {
-    max-width: 100%;
-    height: auto;
-}
 
-/* Responsividade */
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
-
-    .card1, .card2, .card3 {
-        width: 100%;
-        margin: 10px 0;
-    }
-
-    .container2 {
-        flex-direction: column;
-    }
-
-    .col-sm-6 {
-        flex: 1 1 100%;
-    }
-
-    .container_site {
-        flex-direction: column;
-    }
-
-    .col-md-4, .col-md-3 {
-        flex: 1 1 100%;
-    }
-}
-
-@media (max-width: 480px) {
-    .menu {
-        flex-direction: column;
-        gap: 10px;
-    }
-}
-
-.texto {
-    color: yellow;
-    padding: 30px;
-    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-dark-wood-grain-background-material-image_268100.jpg);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .logo {
     width: 80px;
@@ -255,3 +197,19 @@ th:last-child {
     background-color: #ddd;
 }
 
+.jumbotron {
+    background-image: url(https://www.inspirali.com/app/uploads/2023/11/estagio-de-medicina.jpeg);
+    background-position: top;
+    background-position-y: -180px;
+}
+.my-4 {
+    width: 30%;
+    border: solid 3px;
+}
+
+#form2 {
+    border-radius: 10px;
+    border: solid 2px rgb(226, 223, 223);
+    margin: 20px;
+    padding: 20px;
+}
