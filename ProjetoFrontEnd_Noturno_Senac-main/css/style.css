@@ -1,27 +1,22 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+       
 }
 
 
-header {
-    background-color: #fff;
-}
 
 .container3 {
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .menu {
     display: flex;
     gap: 15px;
+    padding: 15px;
 }
 
 .menu a {
@@ -86,12 +81,20 @@ button {
 }
 
 
-.container {
+.container45 {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
-    padding: 10px;
+    gap: 40px;
+    padding: 100px 0 50px 0;
     justify-content: center;
+    background: linear-gradient(
+        to top, 
+        rgba(255, 255, 255, 0.965),
+        rgba(129, 229, 194, 0.451) 
+    ); 
+   
+   
+
 }
 
 
@@ -108,8 +111,6 @@ button {
     justify-content: space-around;
        
 }
-
-
 
 
 .logo {
@@ -183,9 +184,7 @@ th, td {
     border-bottom: solid 1px #909090;
     padding: 10px;
     text-align: left;
-    
-    
-    }
+     }
 
 
 
@@ -201,15 +200,38 @@ th:last-child {
     background-image: url(https://www.inspirali.com/app/uploads/2023/11/estagio-de-medicina.jpeg);
     background-position: top;
     background-position-y: -180px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 20px 45px 20px;
+    
+                      
 }
+
 .my-4 {
     width: 30%;
     border: solid 3px;
+    font-family: 'Roboto', sans-serif;
 }
 
-#form2 {
-    border-radius: 10px;
-    border: solid 2px rgb(226, 223, 223);
-    margin: 20px;
-    padding: 20px;
+
+
+.container4{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    border-radius: 15px;
+    
+    background: linear-gradient(
+        to bottom, 
+        rgba(255, 255, 255, 0.965),
+        rgba(129, 229, 194, 0.451) 
+    ); 
+        align-items: center;
+    
+   
+}
+
+.container4 input {
+    margin-bottom: -25px;
+    border: 2px solid #dce2e4;
 }
